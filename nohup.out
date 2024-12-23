@@ -1,0 +1,616 @@
+Downloading Minecraft server
+Installing Fabric Loader 0.16.9(1.21) on the server
+Downloading required files
+Downloading library org.ow2.asm:asm:9.7.1
+Downloading library org.ow2.asm:asm-analysis:9.7.1
+Downloading library org.ow2.asm:asm-commons:9.7.1
+Downloading library org.ow2.asm:asm-tree:9.7.1
+Downloading library org.ow2.asm:asm-util:9.7.1
+Downloading library net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7
+Downloading library net.fabricmc:intermediary:1.21
+Downloading library net.fabricmc:fabric-loader:0.16.9
+Generating server launch JAR
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[21:06:34] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.9
+[21:06:34] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[21:06:34] [main/INFO]: Loading 64 mods:
+	- bclib 21.0.11
+	- betternether 21.0.10
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabricloader 0.16.9
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21
+	- nullscape 1.2.6
+	- terralith 2.5.7
+	- worldedit 7.3.8+6939-7d32b45
+	- wover 21.0.12
+	   |-- wover-biome 21.0.12
+	   |-- wover-block 21.0.12
+	   |-- wover-common 21.0.12
+	   |-- wover-core 21.0.12
+	   |-- wover-datagen 21.0.12
+	   |-- wover-events 21.0.12
+	   |-- wover-feature 21.0.12
+	   |-- wover-generator 21.0.12
+	   |-- wover-item 21.0.12
+	   |-- wover-math 21.0.12
+	   |-- wover-preset 21.0.12
+	   |-- wover-recipe 21.0.12
+	   |-- wover-structure 21.0.12
+	   |-- wover-surface 21.0.12
+	   |-- wover-tag 21.0.12
+	   \-- wover-ui 21.0.12
+	- wunderlib 21.0.6
+[21:06:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/nathan/mc/fabric-2024/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:06:34] [main/INFO]: Compatibility level set to JAVA_21
+[21:06:35] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:06:44] [main/INFO]: =^..^=    BetterNether for 1.21    =^..^=
+[21:06:45] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@9379b3]
+[21:06:45] [main/INFO]: WorldEdit for Fabric (version 7.3.8+6939-7d32b45) is loaded
+[21:06:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:06:45] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[21:06:45] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):5.3.5:328453}
+[21:06:45] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):8.2.2:524802}
+[21:06:45] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):9.0.1:589825}
+[21:06:45] [main/INFO]: Running Pre Patchers on ./world/.
+[21:06:45] [main/INFO]: Everything up to date
+[21:06:46] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[21:06:46] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[21:06:46] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[21:06:46] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[21:06:46] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[21:06:46] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[21:06:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (27c7e9f9)
+[21:06:47] [main/INFO]: Unable to build Biome List yet
+[21:06:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:06:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (185d4ce0)
+[21:06:47] [main/INFO]: Unable to build Biome List yet
+[21:06:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:06:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (38559a32)
+[21:06:47] [main/INFO]: Unable to build Biome List yet
+[21:06:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:06:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (53e10908)
+[21:06:47] [main/INFO]: Unable to build Biome List yet
+[21:06:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:06:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (5f88ffff)
+[21:06:47] [main/INFO]: Unable to build Biome List yet
+[21:06:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:06:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (261f10e0)
+[21:06:47] [main/INFO]: Unable to build Biome List yet
+[21:06:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:bone_reef (class_4762[temperature=-100, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_glowing_woods (class_4762[temperature=4000, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_pinewood (class_4762[temperature=3500, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:flooded_deltas (class_4762[temperature=-3000, humidity=-100, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1750])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:gravel_desert (class_4762[temperature=-1000, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=2000])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:magma_land (class_4762[temperature=8000, humidity=-7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_grasslands (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_jungle (class_4762[temperature=5000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest_edge (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland (class_4762[temperature=1000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland_terraces (class_4762[temperature=800, humidity=8500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_fungiwoods (class_4762[temperature=0, humidity=6500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_swampland (class_4762[temperature=1000, humidity=7500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_warped_woods (class_4762[temperature=0, humidity=5500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3750])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:poor_nether_grasslands (class_4762[temperature=0, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:soul_plain (class_4762[temperature=100, humidity=-5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:sulfuric_bone_reef (class_4762[temperature=0, humidity=6000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3700])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest (class_4762[temperature=4500, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest_cleared (class_4762[temperature=4500, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest (class_4762[temperature=-5000, humidity=5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest_edge (class_4762[temperature=-5000, humidity=4500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:06:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5371f859)
+[21:06:47] [main/INFO]: Unable to build Biome List yet
+[21:06:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:06:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (dbe09e8)
+[21:06:47] [main/INFO]: Unable to build Biome List yet
+[21:06:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:06:47] [Worker-Main-3/ERROR]: Unable to building bartering table
+[21:06:48] [Worker-Main-3/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[21:06:48] [main/INFO]: Disabling Recipe: bclib:test_star
+[21:06:48] [main/INFO]: Loaded 1947 recipes
+[21:06:48] [main/INFO]: Added 0 recipes in 2ms
+[21:06:49] [main/INFO]: Loaded 2072 advancements
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (6e5fe2a0)
+[21:06:49] [main/INFO]: Added 11 Biomes
+[21:06:49] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:06:49] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7d35f3f6)
+[21:06:49] [main/INFO]: Added 2 Biomes
+[21:06:49] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[21:06:49] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[21:06:49] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[21:06:49] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (6e5fe2a0)
+[21:06:49] [main/INFO]: Added 11 Biomes
+[21:06:49] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5371f859)
+[21:06:49] [main/INFO]: Added 11 Biomes
+[21:06:49] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5371f859)
+[21:06:49] [main/INFO]: Added 11 Biomes
+[21:06:49] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:06:49] [main/INFO]: Added 4 biomes to wover:is_end/highland in 4.886 ms
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7d35f3f6)
+[21:06:49] [main/INFO]: Added 2 Biomes
+[21:06:49] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[21:06:49] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[21:06:49] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[21:06:49] [main/INFO]: Enforcing Correct Generator for minecraft:the_end.
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7d35f3f6)
+[21:06:49] [main/INFO]: Added 2 Biomes
+[21:06:49] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[21:06:49] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[21:06:49] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[21:06:49] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:06:49] [main/INFO]: Loading World with initially configured Dimensions.
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7d35f3f6)
+[21:06:49] [main/INFO]: Added 2 Biomes
+[21:06:49] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[21:06:49] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[21:06:49] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[21:06:49] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5371f859)
+[21:06:49] [main/INFO]: Added 11 Biomes
+[21:06:49] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:06:49] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:06:49] [main/INFO]: Applied 17 biome modifications and added 3 tags to 5 of 184 biomes in 17.05 ms
+[21:06:49] [main/INFO]: Applied 0 biome modifications to 0 of 184 new biomes in 1.801 ms
+[21:06:49] [Server thread/INFO]: Starting minecraft server version 1.21
+[21:06:49] [Server thread/INFO]: Loading properties
+[21:06:49] [Server thread/INFO]: Default game type: SURVIVAL
+[21:06:49] [Server thread/INFO]: Generating keypair
+[21:06:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:06:50] [Server thread/INFO]: Using epoll channel type
+[21:06:50] [Server thread/INFO]: Preparing level "world"
+[21:06:50] [Server thread/INFO]: World Dimensions: 
+ - minecraft:the_nether: 
+     WoVer - Chunk Generator (61ad7b56)
+         preset     = none
+         noise      = minecraft:nether
+         features   = minecraft(37), betternether(95)
+     WoVer - Nether BiomeSource (5371f859)
+         biomes     = 27
+         namespaces = betternether(22), minecraft(5)
+         seed       = -1691532326795647932
+         height     = 128
+         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+ - minecraft:the_end: 
+     WoVer - Chunk Generator (12e4d853)
+         preset     = none
+         noise      = minecraft:end
+         features   = minecraft(4), nullscape(18)
+     WoVer - The End  BiomeSource (7d35f3f6)
+         biomes     = 8
+         namespaces = minecraft(5), nullscape(3)
+         seed       = 0
+         height     = 288
+         deciders   = 0
+         config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+ - minecraft:overworld: 
+     class_3754 (6c3ff52f)
+         preset     = none
+         noise      = minecraft:overworld
+         features   = terralith(385), minecraft(153)
+     class_4766 (5f38066d)
+         biomes     = 148
+         namespaces = minecraft(53), terralith(95)
+[21:06:50] [Server thread/INFO]: Merged 22 additional Surface Rules for Dimension minecraft:the_nether => 74 (1.010 ms) using WoVer - Nether BiomeSource (5371f859)
+    biomes     = 27
+    namespaces = betternether(22), minecraft(5)
+    seed       = -1691532326795647932
+    height     = 128
+    config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+[21:06:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:06:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:06:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:06:54] [Server thread/INFO]: Time elapsed: 602 ms
+[21:06:54] [Server thread/INFO]: Done (3.879s)! For help, type "help"
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[21:08:32] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.9
+[21:08:32] [main/INFO]: Loading 64 mods:
+	- bclib 21.0.11
+	- betternether 21.0.10
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabricloader 0.16.9
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21
+	- nullscape 1.2.6
+	- terralith 2.5.7
+	- worldedit 7.3.8+6939-7d32b45
+	- wover 21.0.12
+	   |-- wover-biome 21.0.12
+	   |-- wover-block 21.0.12
+	   |-- wover-common 21.0.12
+	   |-- wover-core 21.0.12
+	   |-- wover-datagen 21.0.12
+	   |-- wover-events 21.0.12
+	   |-- wover-feature 21.0.12
+	   |-- wover-generator 21.0.12
+	   |-- wover-item 21.0.12
+	   |-- wover-math 21.0.12
+	   |-- wover-preset 21.0.12
+	   |-- wover-recipe 21.0.12
+	   |-- wover-structure 21.0.12
+	   |-- wover-surface 21.0.12
+	   |-- wover-tag 21.0.12
+	   \-- wover-ui 21.0.12
+	- wunderlib 21.0.6
+[21:08:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/nathan/mc/fabric-2024/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:08:32] [main/INFO]: Compatibility level set to JAVA_21
+[21:08:33] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:08:42] [main/INFO]: =^..^=    BetterNether for 1.21    =^..^=
+[21:08:43] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@65b65bdb]
+[21:08:43] [main/INFO]: WorldEdit for Fabric (version 7.3.8+6939-7d32b45) is loaded
+[21:08:43] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:08:44] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[21:08:44] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):5.3.5:328453}
+[21:08:44] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):8.2.2:524802}
+[21:08:44] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):9.0.1:589825}
+[21:08:44] [main/INFO]: Running Pre Patchers on ./world/.
+[21:08:44] [main/INFO]: Everything up to date
+[21:08:44] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[21:08:44] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[21:08:44] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[21:08:44] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[21:08:44] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[21:08:44] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[21:08:45] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (168f83a)
+[21:08:45] [main/INFO]: Unable to build Biome List yet
+[21:08:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:08:45] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (50733084)
+[21:08:45] [main/INFO]: Unable to build Biome List yet
+[21:08:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:08:45] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7afa9c1f)
+[21:08:45] [main/INFO]: Unable to build Biome List yet
+[21:08:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:08:45] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (459ad724)
+[21:08:45] [main/INFO]: Unable to build Biome List yet
+[21:08:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:08:45] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2fc5dfb)
+[21:08:45] [main/INFO]: Unable to build Biome List yet
+[21:08:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:08:45] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5b983f6a)
+[21:08:45] [main/INFO]: Unable to build Biome List yet
+[21:08:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:bone_reef (class_4762[temperature=-100, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_glowing_woods (class_4762[temperature=4000, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_pinewood (class_4762[temperature=3500, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:flooded_deltas (class_4762[temperature=-3000, humidity=-100, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1750])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:gravel_desert (class_4762[temperature=-1000, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=2000])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:magma_land (class_4762[temperature=8000, humidity=-7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_grasslands (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_jungle (class_4762[temperature=5000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest_edge (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland (class_4762[temperature=1000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland_terraces (class_4762[temperature=800, humidity=8500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_fungiwoods (class_4762[temperature=0, humidity=6500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_swampland (class_4762[temperature=1000, humidity=7500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_warped_woods (class_4762[temperature=0, humidity=5500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3750])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:poor_nether_grasslands (class_4762[temperature=0, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:soul_plain (class_4762[temperature=100, humidity=-5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:sulfuric_bone_reef (class_4762[temperature=0, humidity=6000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3700])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest (class_4762[temperature=4500, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest_cleared (class_4762[temperature=4500, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest (class_4762[temperature=-5000, humidity=5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest_edge (class_4762[temperature=-5000, humidity=4500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:08:45] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (28add270)
+[21:08:45] [main/INFO]: Unable to build Biome List yet
+[21:08:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:08:45] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (35f016d6)
+[21:08:45] [main/INFO]: Unable to build Biome List yet
+[21:08:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:08:46] [Worker-Main-3/ERROR]: Unable to building bartering table
+[21:08:46] [Worker-Main-3/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[21:08:46] [main/INFO]: Disabling Recipe: bclib:test_star
+[21:08:46] [main/INFO]: Loaded 1947 recipes
+[21:08:46] [main/INFO]: Added 0 recipes in 1ms
+[21:08:47] [main/INFO]: Loaded 2072 advancements
+[21:08:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (77b1470c)
+[21:08:47] [main/INFO]: Added 11 Biomes
+[21:08:47] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:08:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:08:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2891acd9)
+[21:08:47] [main/INFO]: Added 2 Biomes
+[21:08:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[21:08:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[21:08:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[21:08:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:08:47] [main/INFO]: Added 4 biomes to wover:is_end/highland in 4.371 ms
+[21:08:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2891acd9)
+[21:08:47] [main/INFO]: Added 2 Biomes
+[21:08:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[21:08:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[21:08:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[21:08:47] [main/INFO]: Enforcing Correct Generator for minecraft:the_end.
+[21:08:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2891acd9)
+[21:08:47] [main/INFO]: Added 2 Biomes
+[21:08:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[21:08:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[21:08:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[21:08:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:08:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (77b1470c)
+[21:08:47] [main/INFO]: Added 11 Biomes
+[21:08:47] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:08:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (28add270)
+[21:08:47] [main/INFO]: Added 11 Biomes
+[21:08:47] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:08:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (28add270)
+[21:08:47] [main/INFO]: Added 11 Biomes
+[21:08:47] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:08:47] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:08:47] [main/INFO]: Loading World with initially configured Dimensions.
+[21:08:48] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2891acd9)
+[21:08:48] [main/INFO]: Added 2 Biomes
+[21:08:48] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[21:08:48] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[21:08:48] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[21:08:48] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (28add270)
+[21:08:48] [main/INFO]: Added 11 Biomes
+[21:08:48] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[21:08:48] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[21:08:48] [main/INFO]: Applied 17 biome modifications and added 3 tags to 5 of 184 biomes in 41.23 ms
+[21:08:48] [main/INFO]: Applied 0 biome modifications to 0 of 184 new biomes in 1.832 ms
+[21:08:48] [Server thread/INFO]: Starting minecraft server version 1.21
+[21:08:48] [Server thread/INFO]: Loading properties
+[21:08:48] [Server thread/INFO]: Default game type: SURVIVAL
+[21:08:48] [Server thread/INFO]: Generating keypair
+[21:08:48] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at knot/net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
+[21:08:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:08:48] [Server thread/INFO]: Using epoll channel type
+[21:08:48] [Server thread/INFO]: Preparing level "world"
+[21:08:48] [Server thread/INFO]: World Dimensions: 
+ - minecraft:the_end: 
+     WoVer - Chunk Generator (2370381b)
+         preset     = none
+         noise      = minecraft:end
+         features   = minecraft(4), nullscape(18)
+     WoVer - The End  BiomeSource (2891acd9)
+         biomes     = 8
+         namespaces = minecraft(5), nullscape(3)
+         seed       = 0
+         height     = 288
+         deciders   = 0
+         config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+ - minecraft:the_nether: 
+     WoVer - Chunk Generator (601e0dda)
+         preset     = none
+         noise      = minecraft:nether
+         features   = minecraft(37), betternether(95)
+     WoVer - Nether BiomeSource (28add270)
+         biomes     = 27
+         namespaces = betternether(22), minecraft(5)
+         seed       = -1691532326795647932
+         height     = 128
+         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+ - minecraft:overworld: 
+     class_3754 (1fb4d9a7)
+         preset     = none
+         noise      = minecraft:overworld
+         features   = terralith(385), minecraft(153)
+     class_4766 (1564dbb7)
+         biomes     = 148
+         namespaces = minecraft(53), terralith(95)
+[21:08:48] [Server thread/INFO]: Merged 22 additional Surface Rules for Dimension minecraft:the_nether => 74 (1.410 ms) using WoVer - Nether BiomeSource (28add270)
+    biomes     = 27
+    namespaces = betternether(22), minecraft(5)
+    seed       = -1691532326795647932
+    height     = 128
+    config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+[21:08:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:08:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:08:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:08:52] [Server thread/INFO]: Time elapsed: 642 ms
+[21:08:52] [Server thread/INFO]: Done (4.379s)! For help, type "help"
